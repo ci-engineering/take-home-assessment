@@ -11,9 +11,10 @@ The cells shaded blue represent inputs that the API should take in as a JSON pay
 ## Assessment Requirements
 
 - Create a new public GitHub repo 
-- Create a new controller and service that will:
-    - POST action that returns data per below requirements (See sample response)
-    - Function in accordance to the Business rules stated below
+- Create a new controller that will:
+    - Accept the payload described below.
+    - Return the response model described below.
+    - Utilize a service that functions in accordance to the Business rules stated below
 - Repo README has instructions for running and testing the API (basic instructions only, nothing too involved)
 - Unit tests are required (We have provided some sample tests if you have not used NUnit/Moq before) and provided links to their documentation and usage.
 
