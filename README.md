@@ -24,7 +24,8 @@ Carve out 3-4 hours and create an API endpoint. We hope you can spend 3-4 hours 
 
 ## Business rules:
 
-- State abbreviation and full state name is allowed. When given full state name, convert to abbreviation in response
+- State abbreviation and full state name is allowed. 
+    - When given full state name, convert to abbreviation in response
 - Calculate premium for each state for the given business and revenue amount
 - Only Plumber, Architect, and Programmer are supported values for business value
 - Only Texas, Florida, and Ohio are supported values for states
