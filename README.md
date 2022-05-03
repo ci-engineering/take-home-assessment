@@ -40,7 +40,7 @@ A global error handler has been set up in this project. Feel free to use or modi
 
 Test Controller, Service, and Unit Tests are provided as examples only and do not contain any “hints”.
 
-## Example
+## Request/Response criteria
 
 Example Request: If the API receives a payload of:
 
