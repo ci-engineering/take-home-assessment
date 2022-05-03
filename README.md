@@ -38,7 +38,8 @@ Boiler plate code is using [****.NET 5.0****](https://dotnet.microsoft.com/en-us
 
 A global error handler has been set up in this project. Feel free to use or modify how you see fit.
 
-Test Controller, Service, and Unit Tests are provided as examples only and do not contain any “hints”.
+Note: Test Controller, Service, and Unit Tests are provided as examples only and do not contain any “hints”.
+
 
 ## Request/Response criteria
 
