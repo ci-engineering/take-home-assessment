@@ -8,6 +8,10 @@ In this repo is an Excel sheet (Mini_Rater.xlsx) with a simplified insurance rat
 
 The cells shaded blue represent inputs that the API should take in as a JSON payload. Cells B6 through B9 each have a formula to be implemented to calculate their value (or they contain a hardcoded value). The tables to the right show the possible states and business inputs and their associated values. Cell B11 has a formula which is used to calculate the Total Premium, which is the result that the API should return.
 
+## Time:
+
+Carve out 3-4 hours and create an API endpoint. We hope you can spend 3-4 hours on this project. If you can finish faster — great! If not, limit yourself and do not spend longer than 4 hours MAX.
+
 ## Assessment Requirements
 
 - Create a new public GitHub repo 
@@ -25,21 +29,6 @@ The cells shaded blue represent inputs that the API should take in as a JSON pay
 - Only Plumber, Architect, and Programmer are supported values for business value
 - Only Texas, Florida, and Ohio are supported values for states
     - If one value is not supported, then treat the entire request as invalid.
-
-## Time:
-
-Carve out 3-4 hours and create an API endpoint. We hope you can spend 3-4 hours on this project. If you can finish faster — great! If not, limit yourself and do not spend longer than 4 hours MAX.
-
-## Boiler plate code:
-
-We have provided you with boiler plate code and project set up so you can focus on solving the actual technical challenge. You may start your own, but please ensure to include unit tests.
-
-Boiler plate code is using [****.NET 5.0****](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
-
-A global error handler has been set up in this project. Feel free to use or modify how you see fit.
-
-Note: Test Controller, Service, and Unit Tests are provided as examples only and do not contain any “hints”.
-
 
 ## Request/Response criteria
 
@@ -81,6 +70,17 @@ Example Response: It should respond with a payload of:
   "transactionId": "27373db4-56c3-4383-a2e1-f55c77b4aa3f"
 }
 ```
+
+## Boiler plate code:
+
+We have provided you with boiler plate code and project set up so you can focus on solving the actual technical challenge. You may start your own, but please ensure to include unit tests.
+
+Boiler plate code is using [****.NET 5.0****](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+
+A global error handler has been set up in this project. Feel free to use or modify how you see fit.
+
+Note: Test Controller, Service, and Unit Tests are provided as examples only and do not contain any “hints”.
+
 
 ## Evaluation Criteria:
 
